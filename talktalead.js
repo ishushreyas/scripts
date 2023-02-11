@@ -4,7 +4,7 @@ style.href = 'https://ishushreyas.github.io/scripts/style.css';
 document.body.appendChild(style);
 var iframe = document.createElement('iframe');
 iframe.frameBorder= 'none';
-iframe.height = '80%';
+iframe.height = '70%';
 iframe.width = '100%';
 iframe.src='https://chat-9a308.web.app?platform='+ parent.document.URL;
 var head = document.createElement('h2');
