@@ -1,4 +1,4 @@
-export function getCommentBox(boxId){
+export default function getCommentBox(boxId){
 var style = document.createElement('link');
 style.rel = 'stylesheet';
 style.href = 'https://ishushreyas.github.io/scripts/style.css';
