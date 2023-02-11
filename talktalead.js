@@ -10,7 +10,8 @@ icons.href = 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined
 document.body.appendChild(fonts);
 document.body.appendChild(theme);
 var iframe = document.createElement('iframe');
-iframe.frameBoder = 'none';
+iframe.style = 'frameBoder:none;';
 iframe.height = '80%';
 iframe.width = '100%';
+iframe.src='https://chat-9a308.web.app?platform='+ parent.document.URL;
 document.getElementById('cont').appendChild(iframe);
