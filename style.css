@@ -1,0 +1,4 @@
+@import('https://talktale.web.app/theme.css');
+@import('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito:wght@700&family=Patrick+Hand&family=Quicksand:wght@700&display=swap');
+.cont{margin: 12px; padding: 12px; border-radius:22px; text-align: center; box-shadow:3px 3px 9px rgb(0,0,0,0.3);}
