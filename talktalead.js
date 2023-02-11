@@ -9,6 +9,7 @@ iframe.width = '100%';
 iframe.src='https://chat-9a308.web.app?platform='+ parent.document.URL;
 var head = document.createElement('h2');
 head.innerHTML = 'Comments';
+head.setAttribute('class', 'secondary-text');
 var cont = document.createElement('div');
 document.body.appendChild(cont);
 cont.setAttribute('class', 'surface-variant cont');
