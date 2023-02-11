@@ -1,17 +1,1 @@
-var fonts = document.createElement('link');
-fonts.rel = 'stylesheet';
-fonts.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito:wght@700&family=Patrick+Hand&family=Quicksand:wght@700&display=swap';
-var theme = document.createElement('link');
-theme.rel = 'stylesheet';
-theme.href = 'https://talktale.web.app/theme.css';
-var icons = document.createElement('link');
-icons.rel = 'stylesheet';
-icons.href = 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200';
-document.body.appendChild(fonts);
-document.body.appendChild(theme);
-var iframe = document.createElement('iframe');
-iframe.style = 'frameBoder:none;';
-iframe.height = '80%';
-iframe.width = '100%';
-iframe.src='https://chat-9a308.web.app?platform='+ parent.document.URL;
-document.getElementById('cont').appendChild(iframe);
+var style = document.createElement('link');style.rel = 'stylesheet';style.href = '/scripts/style.css';document.body.appendChild(style);var iframe = document.createElement('iframe');iframe.frameBorder= 'none';iframe.height = '80%';iframe.width = '100%';iframe.src='https://chat-9a308.web.app?platform='+ parent.document.URL;var cont = document.createElement('div');document.body.appendChild(cont);cont.appendChild(iframe);
