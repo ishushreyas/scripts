@@ -7,4 +7,4 @@ theme.href = 'https://talktale.web.app/theme.css';
 var icons = document.createElement('link');
 icons.rel = 'stylesheet';
 icons.href = 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200';
-document.body.appendChild(theme);
+document.body.appendChild(fonts);
