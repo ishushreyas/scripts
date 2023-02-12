@@ -12,7 +12,7 @@ head.innerHTML = 'Comments';
 head.setAttribute('class', 'secondary-text');
 var cont = document.createElement('div');
 document.body.appendChild(cont);
-cont.setAttribute('class', 'surface-variant');
+cont.setAttribute('class', 'background');
 cont.style = 'margin: 12px; padding: 12px; border-radius:22px; text-align: center; box-shadow:3px 3px 9px rgb(0,0,0,0.3); max-height: 70%; overflow: scroll;';
 cont.appendChild(head);
 cont.appendChild(iframe);
